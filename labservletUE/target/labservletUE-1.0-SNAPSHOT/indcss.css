@@ -1,0 +1,92 @@
+#p1{
+    color: white;
+    font-size: 1cm;
+    font-family: 'Archivo Black', sans-serif;
+}
+#p2{
+    font-size: 0.8cm;
+    font-family: 'Archivo Black', sans-serif;
+}
+#p3{
+    font-size: 10px;
+}
+
+#th{
+    font-size:0.8cm;
+    font-family: 'Archivo Black', sans-serif;
+}
+#pay{
+    position: relative;
+
+}
+#ticketSection{
+    color: #dddddd;
+    font-size: 0.4cm;
+}
+#ts{
+    border-top: 9px solid;
+    border-top-color: teal;
+    border-radius: 15px;
+}
+
+.item2{
+    grid-area:  1/2/3/4;
+}
+.item1{
+    grid-area: 1/1/2/2;
+}
+.item3{
+    align-self: baseline;
+    border-top: 9px solid;
+    border-top-color: teal;
+    border-radius: 15px;
+    grid-area: 1/2/3/3;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr fit-content(50%);
+    gap: 10px;
+    padding: 50px;
+}
+body {
+    background-image: url("https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80");
+    text-align: left;
+    font-size-adjust: 1.2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Helvetica,sans-serif;
+}
+input{
+    text-align: center;
+}
+table {
+    text-align: center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+form{
+    border-top: 9px solid;
+    border-top-color: teal;
+    font-family: Helvetica, sans-serif;
+    border-radius: 15px;
+    color: lightgrey;
+}
+input{
+    transition-duration: 0.4s;
+}
+button{
+    transition-duration: 0.4s;
+}
+th {background-color: #008080;}
+th,td{
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+tr:nth-child(odd){
+    background-color: lightgrey;
+}
