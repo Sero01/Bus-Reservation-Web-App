@@ -1,2 +1,2 @@
-# Bus-Reservation-Web-App
+# Ticket-Reservation-Web-App
 A web app to search buses between two cities and books the ticket. Used. HTML, CSS, JS, JSP.
